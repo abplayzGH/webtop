@@ -14,9 +14,8 @@ services:
       - TITLE=Webtop #optional
     volumes:
       - /webtop/:/config
-      - /var/run/docker.sock:/var/run/docker.sock #optional
     ports:
       - 3000:3000
       - 3001:3001
-    shm_size: "1gb" #optional
+    shm_size: "4gb" #optional
     restart: unless-stopped
