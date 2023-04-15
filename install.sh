@@ -1,5 +1,5 @@
 #!/bin/sh
-
+set -x
 sudo su
 sudo mkdir /compose
 sudo cd /compose
