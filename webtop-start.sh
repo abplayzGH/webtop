@@ -1,4 +1,7 @@
 #!/bin/sh
+
+set -x 
+
 BEGIN INIT INFO
 Provides: webtop-start.sh
 Required-Start: $all
@@ -9,4 +12,5 @@ Short-Description: Starts webtop container at boot time
 END INIT INFO
 
 sudo docker-compose -f /compose/docker-compose.yaml up
+
 
